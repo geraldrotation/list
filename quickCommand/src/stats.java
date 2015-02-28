@@ -54,7 +54,7 @@ public class stats {
 
             final PrintWriter writer = new PrintWriter(LIST_NAME, "UTF-8");
 
-            for (final String name : names) {
+            for (final String name : existingNames) {
                 writer.println(name);
             }
             writer.close();
